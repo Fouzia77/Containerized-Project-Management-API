@@ -1,0 +1,61 @@
+
+---
+
+Now create `.gitignore`:
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Database
+*.sqlite
+*.db
+
+# PostgreSQL
+postgres_data/
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
+
+# FastAPI
+*.pid
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Temporary
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (if frontend added)
+node_modules/
