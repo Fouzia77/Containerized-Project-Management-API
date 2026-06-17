@@ -1,6 +1,3 @@
-Create/replace your `README.md` with this:
-
-```markdown
 # Containerized Project Management API
 
 A production-style RESTful Project Management API built with **FastAPI**, **PostgreSQL**, **SQLAlchemy ORM**, **JWT Authentication**, and **Docker Compose**.
